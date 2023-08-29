@@ -1,9 +1,8 @@
+import 'package:call_platform_specific_code/components/counter.dart';
 import 'package:call_platform_specific_code/components/home_widget.dart';
 import 'package:call_platform_specific_code/components/message.dart';
 import 'package:call_platform_specific_code/components/toast.dart';
-import 'package:call_platform_specific_code/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:home_widget/home_widget.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -25,6 +24,7 @@ class _HomePageState extends State<HomePage> {
           SliverToBoxAdapter(child: NativeToast()),
           SliverToBoxAdapter(child: MessageButtonView()),
           SliverToBoxAdapter(child: HomeWidgetButtonView()),
+          SliverToBoxAdapter(child: CounterView()),
         ],
       ),
     );

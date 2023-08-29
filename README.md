@@ -1,4 +1,4 @@
-# call_platform_specific_code
+# platform_specific_code
 
 A new Flutter project.
 
